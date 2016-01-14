@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes\action\Action.h" />
+    <ClInclude Include="Classes\include\TinaConfig.h" />
+    <ClInclude Include="Classes\include\tinaInclude.h" />
+    <ClInclude Include="Classes\include\tinaMacros.h" />
+    <ClInclude Include="Classes\node\TiLayer.h" />
+    <ClInclude Include="Classes\node\TiNode.h" />
+    <ClInclude Include="Classes\rapidxml.h" />
+    <ClInclude Include="Classes\rapidxml\rapidxml.hpp" />
+    <ClInclude Include="Classes\rapidxml\rapidxml_iterators.hpp" />
+    <ClInclude Include="Classes\rapidxml\rapidxml_print.hpp" />
+    <ClInclude Include="Classes\rapidxml\rapidxml_utils.hpp" />
+    <ClInclude Include="Classes\tina.h" />
+    <ClInclude Include="Classes\util\FileUtil.h" />
+    <ClInclude Include="Classes\util\MathUtil.h" />
+    <ClInclude Include="Classes\util\StringUtil.h" />
+    <ClInclude Include="Classes\util\TimeZUtil.h" />
+    <ClInclude Include="Classes\util\TinaMgr.h" />
+    <ClInclude Include="Classes\util\ValueUtil.h" />
+    <ClInclude Include="Classes\widget\base\BaseBox.h" />
+    <ClInclude Include="Classes\widget\base\Widget.h" />
+    <ClInclude Include="Classes\widget\Box.h" />
+    <ClInclude Include="Classes\widget\Button.h" />
+    <ClInclude Include="Classes\widget\ClipView.h" />
+    <ClInclude Include="Classes\widget\GridCell.h" />
+    <ClInclude Include="Classes\widget\GridView.h" />
+    <ClInclude Include="Classes\widget\HBox.h" />
+    <ClInclude Include="Classes\widget\Image.h" />
+    <ClInclude Include="Classes\widget\ImageButton.h" />
+    <ClInclude Include="Classes\widget\ImageLabelButton.h" />
+    <ClInclude Include="Classes\widget\IntLabel.h" />
+    <ClInclude Include="Classes\widget\Label.h" />
+    <ClInclude Include="Classes\widget\ListView.h" />
+    <ClInclude Include="Classes\widget\ProgressImage.h" />
+    <ClInclude Include="Classes\widget\ProgressTimer.h" />
+    <ClInclude Include="Classes\widget\RepeatImage.h" />
+    <ClInclude Include="Classes\widget\ScaleImage.h" />
+    <ClInclude Include="Classes\widget\ScrollView.h" />
+    <ClInclude Include="Classes\widget\ShapeCircle.h" />
+    <ClInclude Include="Classes\widget\ShapeRect.h" />
+    <ClInclude Include="Classes\widget\TableView.h" />
+    <ClInclude Include="Classes\widget\TextField.h" />
+    <ClInclude Include="Classes\widget\TileBox.h" />
+    <ClInclude Include="Classes\widget\util\Layout.h" />
+    <ClInclude Include="Classes\widget\util\LayoutUtil.h" />
+    <ClInclude Include="Classes\widget\util\ParamUtil.h" />
+    <ClInclude Include="Classes\widget\util\TXMLMgr.h" />
+    <ClInclude Include="Classes\widget\util\WidgetHelper.h" />
+    <ClInclude Include="Classes\widget\util\WidgetReader.h" />
+    <ClInclude Include="Classes\widget\VBox.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Classes\action\Action.cpp" />
+    <ClCompile Include="Classes\include\TinaConfig.cpp" />
+    <ClCompile Include="Classes\node\TiLayer.cpp" />
+    <ClCompile Include="Classes\node\TiNode.cpp" />
+    <ClCompile Include="Classes\util\FileUtil.cpp" />
+    <ClCompile Include="Classes\util\MathUtil.cpp" />
+    <ClCompile Include="Classes\util\StringUtil.cpp" />
+    <ClCompile Include="Classes\util\TimeZUtil.cpp" />
+    <ClCompile Include="Classes\util\TinaMgr.cpp" />
+    <ClCompile Include="Classes\util\ValueUtil.cpp" />
+    <ClCompile Include="Classes\widget\base\BaseBox.cpp" />
+    <ClCompile Include="Classes\widget\base\Widget.cpp" />
+    <ClCompile Include="Classes\widget\Box.cpp" />
+    <ClCompile Include="Classes\widget\Button.cpp" />
+    <ClCompile Include="Classes\widget\ClipView.cpp" />
+    <ClCompile Include="Classes\widget\GridCell.cpp" />
+    <ClCompile Include="Classes\widget\GridView.cpp" />
+    <ClCompile Include="Classes\widget\HBox.cpp" />
+    <ClCompile Include="Classes\widget\Image.cpp" />
+    <ClCompile Include="Classes\widget\ImageButton.cpp" />
+    <ClCompile Include="Classes\widget\ImageLabelButton.cpp" />
+    <ClCompile Include="Classes\widget\IntLabel.cpp" />
+    <ClCompile Include="Classes\widget\Label.cpp" />
+    <ClCompile Include="Classes\widget\ListView.cpp" />
+    <ClCompile Include="Classes\widget\ProgressImage.cpp" />
+    <ClCompile Include="Classes\widget\ProgressTimer.cpp" />
+    <ClCompile Include="Classes\widget\RepeatImage.cpp" />
+    <ClCompile Include="Classes\widget\ScaleImage.cpp" />
+    <ClCompile Include="Classes\widget\ScrollView.cpp" />
+    <ClCompile Include="Classes\widget\ShapeCircle.cpp" />
+    <ClCompile Include="Classes\widget\ShapeRect.cpp" />
+    <ClCompile Include="Classes\widget\TableView.cpp" />
+    <ClCompile Include="Classes\widget\TextField.cpp" />
+    <ClCompile Include="Classes\widget\TileBox.cpp" />
+    <ClCompile Include="Classes\widget\util\Layout.cpp" />
+    <ClCompile Include="Classes\widget\util\LayoutUtil.cpp" />
+    <ClCompile Include="Classes\widget\util\ParamUtil.cpp" />
+    <ClCompile Include="Classes\widget\util\TXMLMgr.cpp" />
+    <ClCompile Include="Classes\widget\util\WidgetHelper.cpp" />
+    <ClCompile Include="Classes\widget\util\WidgetReader.cpp" />
+    <ClCompile Include="Classes\widget\VBox.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{516c8316-4fa6-462e-b08f-b1421ead684b}</ProjectGuid>
+    <Keyword>Android</Keyword>
+    <RootNamespace>tina</RootNamespace>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ApplicationType>Android</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+    <AndroidAPILevel>android-19</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+    <AndroidAPILevel>android-19</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+    <AndroidAPILevel>android-19</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+    <AndroidAPILevel>android-19</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

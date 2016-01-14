@@ -1,0 +1,14 @@
+D:\Android1\x86\Debug\Android1.apk.recipe
+D:\Android1\x86\Debug\Android1.apk.recipe.merged
+D:\Android1\x86\Debug\Android1.apk
+D:\Android1\x86\Debug\Android1.lastsuccessfuldeploy
+D:\Android1\Android1\Android1.Packaging\x86\Debug\FileStringReplace.incremental
+D:\Android1\x86\Debug\Package\libs\x86\libAndroid1.so
+D:\Android1\x86\Debug\Package\src\com\example\nativecodec\NativeCodec.java
+D:\Android1\x86\Debug\Package\AndroidManifest.xml
+D:\Android1\x86\Debug\Package\project.properties
+D:\Android1\x86\Debug\Package\build.xml
+D:\Android1\x86\Debug\Package\res\drawable\icon.png
+D:\Android1\x86\Debug\Package\res\layout\main.xml
+D:\Android1\x86\Debug\Package\res\values\strings.xml
+D:\Android1\x86\Debug\Package\src\com\example\nativecodec\MyGLSurfaceView.java

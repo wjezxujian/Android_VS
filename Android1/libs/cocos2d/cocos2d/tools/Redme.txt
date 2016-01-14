@@ -1,0 +1,1 @@
+添加\tools\cocos2d-console\bin到环境变量

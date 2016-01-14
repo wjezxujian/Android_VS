@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{7df72d94-6438-4be9-8c20-7353991c60aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\action">
+      <UniqueIdentifier>{bfe58aa2-79fa-4484-b789-c24ce6ca3f17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\include">
+      <UniqueIdentifier>{93dc2842-102b-4ebf-8595-174779a31bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\node">
+      <UniqueIdentifier>{fb894d8b-47e3-4b65-b582-bca3b6b99017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\rapidxml">
+      <UniqueIdentifier>{bab250fc-1c74-4363-8f7b-fc20ea61ee99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\util">
+      <UniqueIdentifier>{7cb15c0d-1514-4e13-86e0-73a334046a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\widget">
+      <UniqueIdentifier>{4dc79f7b-30c6-4cc8-8332-4d1355821df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\widget\base">
+      <UniqueIdentifier>{60f4ca97-55f6-4281-8af6-a7b18dae35c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\widget\util">
+      <UniqueIdentifier>{01ec82a4-1e5e-4fc0-98fd-eb34be4b8b43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes\rapidxml.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\tina.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\action\Action.h">
+      <Filter>Classes\action</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\include\TinaConfig.h">
+      <Filter>Classes\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\include\tinaInclude.h">
+      <Filter>Classes\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\include\tinaMacros.h">
+      <Filter>Classes\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\node\TiLayer.h">
+      <Filter>Classes\node</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\node\TiNode.h">
+      <Filter>Classes\node</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\rapidxml\rapidxml.hpp">
+      <Filter>Classes\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\rapidxml\rapidxml_iterators.hpp">
+      <Filter>Classes\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\rapidxml\rapidxml_print.hpp">
+      <Filter>Classes\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\rapidxml\rapidxml_utils.hpp">
+      <Filter>Classes\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\util\FileUtil.h">
+      <Filter>Classes\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\util\MathUtil.h">
+      <Filter>Classes\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\util\StringUtil.h">
+      <Filter>Classes\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\util\TimeZUtil.h">
+      <Filter>Classes\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\util\TinaMgr.h">
+      <Filter>Classes\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\util\ValueUtil.h">
+      <Filter>Classes\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\Box.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\Button.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\ClipView.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\GridCell.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\GridView.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\HBox.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\Image.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\ImageButton.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\ImageLabelButton.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\IntLabel.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\Label.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\ListView.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\ProgressImage.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\ProgressTimer.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\RepeatImage.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\ScaleImage.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\ScrollView.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\ShapeCircle.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\ShapeRect.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\TableView.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\TextField.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\TileBox.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\VBox.h">
+      <Filter>Classes\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\util\Layout.h">
+      <Filter>Classes\widget\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\util\LayoutUtil.h">
+      <Filter>Classes\widget\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\util\ParamUtil.h">
+      <Filter>Classes\widget\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\util\TXMLMgr.h">
+      <Filter>Classes\widget\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\util\WidgetHelper.h">
+      <Filter>Classes\widget\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\util\WidgetReader.h">
+      <Filter>Classes\widget\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\base\BaseBox.h">
+      <Filter>Classes\widget\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\widget\base\Widget.h">
+      <Filter>Classes\widget\base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Classes\action\Action.cpp">
+      <Filter>Classes\action</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\include\TinaConfig.cpp">
+      <Filter>Classes\include</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\node\TiLayer.cpp">
+      <Filter>Classes\node</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\node\TiNode.cpp">
+      <Filter>Classes\node</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\util\FileUtil.cpp">
+      <Filter>Classes\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\util\MathUtil.cpp">
+      <Filter>Classes\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\util\StringUtil.cpp">
+      <Filter>Classes\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\util\TimeZUtil.cpp">
+      <Filter>Classes\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\util\TinaMgr.cpp">
+      <Filter>Classes\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\util\ValueUtil.cpp">
+      <Filter>Classes\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\Box.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\Button.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\ClipView.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\GridCell.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\GridView.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\HBox.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\Image.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\ImageButton.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\ImageLabelButton.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\IntLabel.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\Label.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\ListView.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\ProgressImage.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\ProgressTimer.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\RepeatImage.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\ScaleImage.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\ScrollView.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\ShapeCircle.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\ShapeRect.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\TableView.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\TextField.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\TileBox.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\VBox.cpp">
+      <Filter>Classes\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\util\Layout.cpp">
+      <Filter>Classes\widget\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\util\LayoutUtil.cpp">
+      <Filter>Classes\widget\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\util\ParamUtil.cpp">
+      <Filter>Classes\widget\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\util\TXMLMgr.cpp">
+      <Filter>Classes\widget\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\util\WidgetHelper.cpp">
+      <Filter>Classes\widget\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\util\WidgetReader.cpp">
+      <Filter>Classes\widget\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\base\BaseBox.cpp">
+      <Filter>Classes\widget\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\widget\base\Widget.cpp">
+      <Filter>Classes\widget\base</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

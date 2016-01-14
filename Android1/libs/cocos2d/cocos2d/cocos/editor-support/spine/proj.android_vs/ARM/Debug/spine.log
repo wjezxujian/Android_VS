@@ -1,0 +1,273 @@
+﻿  ANDROID_HOME=C:\Program Files (x86)\Android\android-sdk
+  ANT_HOME=D:\Program Files (x86)\Microsoft Visual Studio 14.0\Apps\apache-ant-1.9.3\
+  JAVA_HOME=C:\Program Files (x86)\Java\jdk1.7.0_55
+  NDK_ROOT=C:\ProgramData\Microsoft\AndroidNDK\android-ndk-r10e\
+  Animation.c
+  AnimationState.c
+  AnimationStateData.c
+  Atlas.c
+  AtlasAttachmentLoader.c
+  Attachment.c
+  AttachmentLoader.c
+  Bone.c
+  BoneData.c
+  BoundingBoxAttachment.c
+  Event.c
+  EventData.c
+  extension.c
+  IkConstraint.c
+  IkConstraintData.c
+  Json.c
+  MeshAttachment.c
+  PolygonBatch.cpp
+  In file included from ..\PolygonBatch.cpp:32:
+  In file included from ..\..\spine/PolygonBatch.h:35:
+  In file included from ..\..\..\cocos2d.h:43:
+  In file included from ..\..\../base/CCConfiguration.h:35:
+  In file included from ..\..\..\3d/CCAnimate3D.h:34:
+  In file included from ..\..\..\2d/CCActionInterval.h:34:
+  In file included from ..\..\..\2d/CCAnimation.h:34:
+  In file included from ..\..\..\2d/CCSpriteFrame.h:32:
+..\..\..\2d/CCAutoPolygon.h(58,5): warning : field 'isVertsOwner' will be initialized after field 'rect' [-Wreorder]
+      isVertsOwner(true),
+      ^
+  In file included from ..\PolygonBatch.cpp:32:
+  In file included from ..\..\spine/PolygonBatch.h:35:
+  In file included from ..\..\..\cocos2d.h:59:
+  In file included from ..\..\../base/ZipUtils.h:36:
+..\..\..\platform/android/CCFileUtils-android.h(62,10): warning : 'init' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+      bool init();
+           ^
+  ..\..\..\platform/CCFileUtils.h(494,18) :  note: overridden virtual function is here
+      virtual bool init();
+                   ^
+  In file included from ..\PolygonBatch.cpp:32:
+  In file included from ..\..\spine/PolygonBatch.h:35:
+  In file included from ..\..\..\cocos2d.h:59:
+  In file included from ..\..\../base/ZipUtils.h:36:
+..\..\..\platform/android/CCFileUtils-android.h(80,25): warning : 'getWritablePath' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+      virtual std::string getWritablePath() const;
+                          ^
+  ..\..\..\platform/CCFileUtils.h(299,25) :  note: overridden virtual function is here
+      virtual std::string getWritablePath() const = 0;
+                          ^
+  In file included from ..\PolygonBatch.cpp:32:
+  In file included from ..\..\spine/PolygonBatch.h:35:
+  In file included from ..\..\..\cocos2d.h:59:
+  In file included from ..\..\../base/ZipUtils.h:36:
+..\..\..\platform/android/CCFileUtils-android.h(81,18): warning : 'isAbsolutePath' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+      virtual bool isAbsolutePath(const std::string& strPath) const;
+                   ^
+  ..\..\..\platform/CCFileUtils.h(415,18) :  note: overridden virtual function is here
+      virtual bool isAbsolutePath(const std::string& path) const;
+                   ^
+  4 warnings generated.
+  RegionAttachment.c
+  Skeleton.c
+  SkeletonAnimation.cpp
+  In file included from ..\SkeletonAnimation.cpp:32:
+  In file included from ..\..\spine/SkeletonAnimation.h:36:
+  In file included from ..\..\spine/SkeletonRenderer.h:36:
+  In file included from ..\..\..\cocos2d.h:43:
+  In file included from ..\..\../base/CCConfiguration.h:35:
+  In file included from ..\..\..\3d/CCAnimate3D.h:34:
+  In file included from ..\..\..\2d/CCActionInterval.h:34:
+  In file included from ..\..\..\2d/CCAnimation.h:34:
+  In file included from ..\..\..\2d/CCSpriteFrame.h:32:
+..\..\..\2d/CCAutoPolygon.h(58,5): warning : field 'isVertsOwner' will be initialized after field 'rect' [-Wreorder]
+      isVertsOwner(true),
+      ^
+  In file included from ..\SkeletonAnimation.cpp:32:
+  In file included from ..\..\spine/SkeletonAnimation.h:36:
+  In file included from ..\..\spine/SkeletonRenderer.h:36:
+  In file included from ..\..\..\cocos2d.h:59:
+  In file included from ..\..\../base/ZipUtils.h:36:
+..\..\..\platform/android/CCFileUtils-android.h(62,10): warning : 'init' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+      bool init();
+           ^
+  ..\..\..\platform/CCFileUtils.h(494,18) :  note: overridden virtual function is here
+      virtual bool init();
+                   ^
+  In file included from ..\SkeletonAnimation.cpp:32:
+  In file included from ..\..\spine/SkeletonAnimation.h:36:
+  In file included from ..\..\spine/SkeletonRenderer.h:36:
+  In file included from ..\..\..\cocos2d.h:59:
+  In file included from ..\..\../base/ZipUtils.h:36:
+..\..\..\platform/android/CCFileUtils-android.h(80,25): warning : 'getWritablePath' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+      virtual std::string getWritablePath() const;
+                          ^
+  ..\..\..\platform/CCFileUtils.h(299,25) :  note: overridden virtual function is here
+      virtual std::string getWritablePath() const = 0;
+                          ^
+  In file included from ..\SkeletonAnimation.cpp:32:
+  In file included from ..\..\spine/SkeletonAnimation.h:36:
+  In file included from ..\..\spine/SkeletonRenderer.h:36:
+  In file included from ..\..\..\cocos2d.h:59:
+  In file included from ..\..\../base/ZipUtils.h:36:
+..\..\..\platform/android/CCFileUtils-android.h(81,18): warning : 'isAbsolutePath' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+      virtual bool isAbsolutePath(const std::string& strPath) const;
+                   ^
+  ..\..\..\platform/CCFileUtils.h(415,18) :  note: overridden virtual function is here
+      virtual bool isAbsolutePath(const std::string& path) const;
+                   ^
+  4 warnings generated.
+  SkeletonBounds.c
+  SkeletonData.c
+  SkeletonJson.c
+  SkeletonRenderer.cpp
+  In file included from ..\SkeletonRenderer.cpp:32:
+  In file included from ..\..\spine/SkeletonRenderer.h:36:
+  In file included from ..\..\..\cocos2d.h:43:
+  In file included from ..\..\../base/CCConfiguration.h:35:
+  In file included from ..\..\..\3d/CCAnimate3D.h:34:
+  In file included from ..\..\..\2d/CCActionInterval.h:34:
+  In file included from ..\..\..\2d/CCAnimation.h:34:
+  In file included from ..\..\..\2d/CCSpriteFrame.h:32:
+..\..\..\2d/CCAutoPolygon.h(58,5): warning : field 'isVertsOwner' will be initialized after field 'rect' [-Wreorder]
+      isVertsOwner(true),
+      ^
+  In file included from ..\SkeletonRenderer.cpp:32:
+  In file included from ..\..\spine/SkeletonRenderer.h:36:
+  In file included from ..\..\..\cocos2d.h:59:
+  In file included from ..\..\../base/ZipUtils.h:36:
+..\..\..\platform/android/CCFileUtils-android.h(62,10): warning : 'init' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+      bool init();
+           ^
+  ..\..\..\platform/CCFileUtils.h(494,18) :  note: overridden virtual function is here
+      virtual bool init();
+                   ^
+  In file included from ..\SkeletonRenderer.cpp:32:
+  In file included from ..\..\spine/SkeletonRenderer.h:36:
+  In file included from ..\..\..\cocos2d.h:59:
+  In file included from ..\..\../base/ZipUtils.h:36:
+..\..\..\platform/android/CCFileUtils-android.h(80,25): warning : 'getWritablePath' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+      virtual std::string getWritablePath() const;
+                          ^
+  ..\..\..\platform/CCFileUtils.h(299,25) :  note: overridden virtual function is here
+      virtual std::string getWritablePath() const = 0;
+                          ^
+  In file included from ..\SkeletonRenderer.cpp:32:
+  In file included from ..\..\spine/SkeletonRenderer.h:36:
+  In file included from ..\..\..\cocos2d.h:59:
+  In file included from ..\..\../base/ZipUtils.h:36:
+..\..\..\platform/android/CCFileUtils-android.h(81,18): warning : 'isAbsolutePath' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+      virtual bool isAbsolutePath(const std::string& strPath) const;
+                   ^
+  ..\..\..\platform/CCFileUtils.h(415,18) :  note: overridden virtual function is here
+      virtual bool isAbsolutePath(const std::string& path) const;
+                   ^
+..\SkeletonRenderer.cpp(73,26): warning : 'ShaderCache' is deprecated [-Wdeprecated-declarations]
+          setGLProgram(ShaderCache::getInstance()->getGLProgram(GLProgram::SHADER_NAME_POSITION_TEXTURE_COLOR));
+                                  ^
+  ..\..\../deprecated/CCDeprecated.h(757,48) :  note: 'ShaderCache' has been explicitly marked deprecated here
+  CC_DEPRECATED_ATTRIBUTE typedef GLProgramCache ShaderCache;
+                                                 ^
+..\SkeletonRenderer.cpp(82,35): warning : field '_debugBones' will be initialized after field '_timeScale' [-Wreorder]
+          : _atlas(0), _debugSlots(false), _debugBones(false), _timeScale(1) {
+                                           ^
+..\SkeletonRenderer.cpp(86,35): warning : field '_debugBones' will be initialized after field '_timeScale' [-Wreorder]
+          : _atlas(0), _debugSlots(false), _debugBones(false), _timeScale(1) {
+                                           ^
+..\SkeletonRenderer.cpp(91,35): warning : field '_debugBones' will be initialized after field '_timeScale' [-Wreorder]
+          : _atlas(0), _debugSlots(false), _debugBones(false), _timeScale(1) {
+                                           ^
+..\SkeletonRenderer.cpp(96,35): warning : field '_debugBones' will be initialized after field '_timeScale' [-Wreorder]
+          : _atlas(0), _debugSlots(false), _debugBones(false), _timeScale(1) {
+                                           ^
+..\SkeletonRenderer.cpp(252,20): warning : 'setDrawColor4B' is deprecated [-Wdeprecated-declarations]
+                          DrawPrimitives::setDrawColor4B(0, 0, 255, 255);
+                                          ^
+  ..\..\../2d/CCDrawingPrimitives.h(245,41) :  note: 'setDrawColor4B' has been explicitly marked deprecated here
+      CC_DEPRECATED_ATTRIBUTE void CC_DLL setDrawColor4B(GLubyte r, GLubyte g, GLubyte b, GLubyte a);
+                                          ^
+..\SkeletonRenderer.cpp(265,21): warning : 'drawPoly' is deprecated [-Wdeprecated-declarations]
+                                  DrawPrimitives::drawPoly(points, 4, true);
+                                                  ^
+  ..\..\../2d/CCDrawingPrimitives.h(142,41) :  note: 'drawPoly' has been explicitly marked deprecated here
+      CC_DEPRECATED_ATTRIBUTE void CC_DLL drawPoly(const Vec2 *vertices, unsigned int numOfVertices, bool closePolygon);
+                                          ^
+..\SkeletonRenderer.cpp(271,20): warning : 'setDrawColor4B' is deprecated [-Wdeprecated-declarations]
+                          DrawPrimitives::setDrawColor4B(255, 0, 0, 255);
+                                          ^
+  ..\..\../2d/CCDrawingPrimitives.h(245,41) :  note: 'setDrawColor4B' has been explicitly marked deprecated here
+      CC_DEPRECATED_ATTRIBUTE void CC_DLL setDrawColor4B(GLubyte r, GLubyte g, GLubyte b, GLubyte a);
+                                          ^
+..\SkeletonRenderer.cpp(276,21): warning : 'drawLine' is deprecated [-Wdeprecated-declarations]
+                                  DrawPrimitives::drawLine(Vec2(bone->worldX, bone->worldY), Vec2(x, y));
+                                                  ^
+  ..\..\../2d/CCDrawingPrimitives.h(115,41) :  note: 'drawLine' has been explicitly marked deprecated here
+      CC_DEPRECATED_ATTRIBUTE void CC_DLL drawLine(const Vec2& origin, const Vec2& destination);
+                                          ^
+..\SkeletonRenderer.cpp(279,20): warning : 'setPointSize' is deprecated [-Wdeprecated-declarations]
+                          DrawPrimitives::setPointSize(4);
+                                          ^
+  ..\..\../2d/CCDrawingPrimitives.h(263,41) :  note: 'setPointSize' has been explicitly marked deprecated here
+      CC_DEPRECATED_ATTRIBUTE void CC_DLL setPointSize(GLfloat pointSize);
+                                          ^
+..\SkeletonRenderer.cpp(280,20): warning : 'setDrawColor4B' is deprecated [-Wdeprecated-declarations]
+                          DrawPrimitives::setDrawColor4B(0, 0, 255, 255); // Root bone is blue.
+                                          ^
+  ..\..\../2d/CCDrawingPrimitives.h(245,41) :  note: 'setDrawColor4B' has been explicitly marked deprecated here
+      CC_DEPRECATED_ATTRIBUTE void CC_DLL setDrawColor4B(GLubyte r, GLubyte g, GLubyte b, GLubyte a);
+                                          ^
+..\SkeletonRenderer.cpp(283,21): warning : 'drawPoint' is deprecated [-Wdeprecated-declarations]
+                                  DrawPrimitives::drawPoint(Vec2(bone->worldX, bone->worldY));
+                                                  ^
+  ..\..\../2d/CCDrawingPrimitives.h(100,41) :  note: 'drawPoint' has been explicitly marked deprecated here
+      CC_DEPRECATED_ATTRIBUTE void CC_DLL drawPoint(const Vec2& point);
+                                          ^
+..\SkeletonRenderer.cpp(284,33): warning : 'setDrawColor4B' is deprecated [-Wdeprecated-declarations]
+                                  if (i == 0) DrawPrimitives::setDrawColor4B(0, 255, 0, 255);
+                                                              ^
+  ..\..\../2d/CCDrawingPrimitives.h(245,41) :  note: 'setDrawColor4B' has been explicitly marked deprecated here
+      CC_DEPRECATED_ATTRIBUTE void CC_DLL setDrawColor4B(GLubyte r, GLubyte g, GLubyte b, GLubyte a);
+                                          ^
+  17 warnings generated.
+  Skin.c
+  SkinnedMeshAttachment.c
+  Slot.c
+  SlotData.c
+  spine-cocos2dx.cpp
+  In file included from ..\spine-cocos2dx.cpp:32:
+  In file included from ..\..\spine/spine-cocos2dx.h:36:
+  In file included from ..\..\..\cocos2d.h:43:
+  In file included from ..\..\../base/CCConfiguration.h:35:
+  In file included from ..\..\..\3d/CCAnimate3D.h:34:
+  In file included from ..\..\..\2d/CCActionInterval.h:34:
+  In file included from ..\..\..\2d/CCAnimation.h:34:
+  In file included from ..\..\..\2d/CCSpriteFrame.h:32:
+..\..\..\2d/CCAutoPolygon.h(58,5): warning : field 'isVertsOwner' will be initialized after field 'rect' [-Wreorder]
+      isVertsOwner(true),
+      ^
+  In file included from ..\spine-cocos2dx.cpp:32:
+  In file included from ..\..\spine/spine-cocos2dx.h:36:
+  In file included from ..\..\..\cocos2d.h:59:
+  In file included from ..\..\../base/ZipUtils.h:36:
+..\..\..\platform/android/CCFileUtils-android.h(62,10): warning : 'init' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+      bool init();
+           ^
+  ..\..\..\platform/CCFileUtils.h(494,18) :  note: overridden virtual function is here
+      virtual bool init();
+                   ^
+  In file included from ..\spine-cocos2dx.cpp:32:
+  In file included from ..\..\spine/spine-cocos2dx.h:36:
+  In file included from ..\..\..\cocos2d.h:59:
+  In file included from ..\..\../base/ZipUtils.h:36:
+..\..\..\platform/android/CCFileUtils-android.h(80,25): warning : 'getWritablePath' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+      virtual std::string getWritablePath() const;
+                          ^
+  ..\..\..\platform/CCFileUtils.h(299,25) :  note: overridden virtual function is here
+      virtual std::string getWritablePath() const = 0;
+                          ^
+  In file included from ..\spine-cocos2dx.cpp:32:
+  In file included from ..\..\spine/spine-cocos2dx.h:36:
+  In file included from ..\..\..\cocos2d.h:59:
+  In file included from ..\..\../base/ZipUtils.h:36:
+..\..\..\platform/android/CCFileUtils-android.h(81,18): warning : 'isAbsolutePath' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+      virtual bool isAbsolutePath(const std::string& strPath) const;
+                   ^
+  ..\..\..\platform/CCFileUtils.h(415,18) :  note: overridden virtual function is here
+      virtual bool isAbsolutePath(const std::string& path) const;
+                   ^
+  4 warnings generated.
+  spine.vcxproj -> D:\Android2\ARM\Debug\libspine.a

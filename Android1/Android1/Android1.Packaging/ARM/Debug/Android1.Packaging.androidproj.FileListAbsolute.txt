@@ -1,0 +1,9 @@
+D:\Android1\ARM\Debug\Android1.apk.recipe
+D:\Android1\ARM\Debug\Android1.apk.recipe.merged
+D:\Android1\ARM\Debug\Package\libs\armeabi-v7a\libAndroid1.so
+D:\Android1\ARM\Debug\Android1.apk
+D:\Android1\ARM\Debug\Android1.lastsuccessfuldeploy
+D:\Android1\Android1\Android1.Packaging\ARM\Debug\FileStringReplace.incremental
+D:\Android1\ARM\Debug\Package\AndroidManifest.xml
+D:\Android1\ARM\Debug\Package\project.properties
+D:\Android1\ARM\Debug\Package\build.xml
