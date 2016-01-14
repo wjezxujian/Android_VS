@@ -31,7 +31,7 @@
 
 #include "bullet/btBulletCollisionCommon.h"
 #include "bullet/btBulletDynamicsCommon.h"
-
+#include "bullet/BulletCollision/CollisionDispatch/btGhostObject.h"
 NS_CC_BEGIN
 
 Physics3DRigidBody::Physics3DRigidBody()

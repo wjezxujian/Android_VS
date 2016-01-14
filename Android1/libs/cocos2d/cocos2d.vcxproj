@@ -40,6 +40,9 @@
     <ClCompile Include="cocos2d\cocos\audio\android\cddSimpleAudioEngine.cpp" />
     <ClCompile Include="cocos2d\cocos\audio\android\jni\cddandroidAndroidJavaEngine.cpp" />
     <ClCompile Include="cocos2d\cocos\audio\AudioEngine.cpp" />
+    <ClCompile Include="cocos2d\cocos\base\CCEventListenerController.cpp" />
+    <ClCompile Include="cocos2d\cocos\base\CCUserDefault-android.cpp" />
+    <ClCompile Include="cocos2d\cocos\base\pvr.cpp" />
     <ClCompile Include="cocos2d\cocos\network\CCDownloader-android.cpp" />
     <ClCompile Include="cocos2d\cocos\network\CCDownloader-curl.cpp" />
     <ClCompile Include="cocos2d\cocos\network\HttpClient-android.cpp" />
@@ -323,7 +326,6 @@
     <ClCompile Include="cocos2d\cocos\base\CCScriptSupport.cpp" />
     <ClCompile Include="cocos2d\cocos\base\CCTouch.cpp" />
     <ClCompile Include="cocos2d\cocos\base\ccTypes.cpp" />
-    <ClCompile Include="cocos2d\cocos\base\CCUserDefault.cpp" />
     <ClCompile Include="cocos2d\cocos\base\ccUTF8.cpp" />
     <ClCompile Include="cocos2d\cocos\base\ccUtils.cpp" />
     <ClCompile Include="cocos2d\cocos\base\CCValue.cpp" />
@@ -610,6 +612,8 @@
     <ClInclude Include="cocos2d\cocos\audio\include\AudioEngine.h" />
     <ClInclude Include="cocos2d\cocos\audio\include\Export.h" />
     <ClInclude Include="cocos2d\cocos\audio\include\SimpleAudioEngine.h" />
+    <ClInclude Include="cocos2d\cocos\base\CCEventListenerController.h" />
+    <ClInclude Include="cocos2d\cocos\base\pvr.h" />
     <ClInclude Include="cocos2d\cocos\network\CCDownloader-android.h" />
     <ClInclude Include="cocos2d\cocos\network\CCDownloader-curl.h" />
     <ClInclude Include="cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-android.h" />
@@ -1428,7 +1432,7 @@
       </PrecompiledHeader>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)\cocos2d;$(ProjectDir)\cocos2d\cocos;$(ProjectDir)\cocos2d\cocos\editor-support;$(ProjectDir)\cocos2d\cocos\audio\include;$(ProjectDir)\cocos2d\cocos\audio\android;$(ProjectDir)\cocos2d\cocos\audio\android\jni;$(ProjectDir)\cocos2d\cocos\platform;$(ProjectDir)\cocos2d\cocos\platform\android;$(ProjectDir)\cocos2d\extensions;$(ProjectDir)\cocos2d\external;$(ProjectDir)\cocos2d\external\box2d;$(ProjectDir)\cocos2d\external\sqlite3\include;$(ProjectDir)\cocos2d\external\unzip;$(ProjectDir)\cocos2d\external\edtaa3func;$(ProjectDir)\cocos2d\external\tinyxml2;$(ProjectDir)\cocos2d\external\png\include\android;$(ProjectDir)\cocos2d\external\jpeg\include\android;$(ProjectDir)\cocos2d\external\tiff\include\android;$(ProjectDir)\cocos2d\external\webp\include\android;$(ProjectDir)\cocos2d\external\freetype2\include\android;$(ProjectDir)\cocos2d\external\freetype2\include\android\freetype2;$(ProjectDir)\cocos2d\external\chipmunk\include\chipmunk;$(ProjectDir)\cocos2d\external\xxhash;$(ProjectDir)\cocos2d\external\ConvertUTF;$(ProjectDir)\cocos2d\external\curl\include\android;$(ProjectDir)\cocos2d\external\websockets\include\android;$(ProjectDir)\cocos2d\external\poly2tri\common;$(ProjectDir)\cocos2d\external\poly2tri\sweep;$(ProjectDir)\cocos2d\external\poly2tri;$(VS_NdkRoot)\sources\android\cpufeatures;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\cocos2d;$(ProjectDir)\cocos2d\cocos;$(ProjectDir)\cocos2d\cocos\editor-support;$(ProjectDir)\cocos2d\cocos\audio\include;$(ProjectDir)\cocos2d\cocos\audio\android;$(ProjectDir)\cocos2d\cocos\audio\android\jni;$(ProjectDir)\cocos2d\cocos\platform;$(ProjectDir)\cocos2d\cocos\platform\android;$(ProjectDir)\cocos2d\extensions;$(ProjectDir)\cocos2d\external;$(ProjectDir)\cocos2d\external\box2d;$(ProjectDir)\cocos2d\external\sqlite3\include;$(ProjectDir)\cocos2d\external\unzip;$(ProjectDir)\cocos2d\external\edtaa3func;$(ProjectDir)\cocos2d\external\tinyxml2;$(ProjectDir)\cocos2d\external\png\include\android;$(ProjectDir)\cocos2d\external\jpeg\include\android;$(ProjectDir)\cocos2d\external\tiff\include\android;$(ProjectDir)\cocos2d\external\webp\include\android;$(ProjectDir)\cocos2d\external\freetype2\include\android;$(ProjectDir)\cocos2d\external\freetype2\include\android\freetype2;$(ProjectDir)\cocos2d\external\chipmunk\include\chipmunk;$(ProjectDir)\cocos2d\external\xxhash;$(ProjectDir)\cocos2d\external\ConvertUTF;$(ProjectDir)\cocos2d\external\curl\include\android;$(ProjectDir)\cocos2d\external\websockets\include\android;$(ProjectDir)\cocos2d\external\poly2tri\common;$(ProjectDir)\cocos2d\external\poly2tri\sweep;$(ProjectDir)\cocos2d\external\poly2tri;$(VS_NdkRoot)\sources\android\cpufeatures;D:\Android1\libs\cocos2d\cocos2d\external\bullet\BulletCollision\CollisionDispatch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ANDROID;__ARM_NEON__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ExceptionHandling>Enabled</ExceptionHandling>
       <CppLanguageStandard>c++11</CppLanguageStandard>

@@ -31,7 +31,7 @@ class btDispatcher;
 ///By default, this overlap is based on the AABB
 ///This is useful for creating a character controller, collision sensors/triggers, explosions etc.
 ///We plan on adding rayTest and other queries for the btGhostObject
-ATTRIBUTE_ALIGNED16(class) btGhostObject : public btCollisionObject
+class btGhostObject : public btCollisionObject
 {
 protected:
 

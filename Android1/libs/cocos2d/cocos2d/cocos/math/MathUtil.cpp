@@ -110,10 +110,10 @@ bool MathUtil::isNeon32Enabled()
     public:
         AnrdoidNeonChecker()
         {
-            if (android_getCpuFamily() == ANDROID_CPU_FAMILY_ARM && (android_getCpuFeatures() & ANDROID_CPU_ARM_FEATURE_NEON) != 0)
+            //if (android_getCpuFamily() == ANDROID_CPU_FAMILY_ARM && (android_getCpuFeatures() & ANDROID_CPU_ARM_FEATURE_NEON) != 0)
                 _isNeonEnabled = true;
-            else
-                _isNeonEnabled = false;
+            //else
+            //    _isNeonEnabled = false;
         }
         bool isNeonEnabled() const { return _isNeonEnabled; }
     private:

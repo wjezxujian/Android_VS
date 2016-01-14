@@ -28,7 +28,7 @@
 #include "math/CCMath.h"
 #include "base/CCRef.h"
 #include "base/ccConfig.h"
-
+#include "bullet/BulletCollision/CollisionDispatch/btGhostObject.h"
 #include <vector>
 
 #if CC_USE_3D_PHYSICS

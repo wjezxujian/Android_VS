@@ -208,7 +208,12 @@
       </PrecompiledHeader>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;$(ProjectDir)\..\cocos2d\cocos2d;$(ProjectDir)\..\cocos2d\cocos2d\cocos;$(ProjectDir)\..\cocos2d\cocos2d\external;$(ProjectDir)\..\cocos2d\cocos2d\external\tinyxml2;$(ProjectDir)\..\cocos2d\cocos2d\extensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <AdditionalOptions>-fpermissive %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>ANDROID;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -217,7 +222,12 @@
       </PrecompiledHeader>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;$(ProjectDir)\..\cocos2d\cocos2d;$(ProjectDir)\..\cocos2d\cocos2d\cocos;$(ProjectDir)\..\cocos2d\cocos2d\external;$(ProjectDir)\..\cocos2d\cocos2d\external\tinyxml2;$(ProjectDir)\..\cocos2d\cocos2d\extensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <AdditionalOptions>-fpermissive %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>ANDROID;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
@@ -226,7 +236,12 @@
       </PrecompiledHeader>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;$(ProjectDir)\..\cocos2d\cocos2d;$(ProjectDir)\..\cocos2d\cocos2d\cocos;$(ProjectDir)\..\cocos2d\cocos2d\external;$(ProjectDir)\..\cocos2d\cocos2d\external\tinyxml2;$(ProjectDir)\..\cocos2d\cocos2d\extensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <AdditionalOptions>-fpermissive %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>ANDROID;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
@@ -235,7 +250,12 @@
       </PrecompiledHeader>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;$(ProjectDir)\..\cocos2d\cocos2d;$(ProjectDir)\..\cocos2d\cocos2d\cocos;$(ProjectDir)\..\cocos2d\cocos2d\external;$(ProjectDir)\..\cocos2d\cocos2d\external\tinyxml2;$(ProjectDir)\..\cocos2d\cocos2d\extensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <AdditionalOptions>-fpermissive %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>ANDROID;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
@@ -244,7 +264,12 @@
       </PrecompiledHeader>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;$(ProjectDir)\..\cocos2d\cocos2d;$(ProjectDir)\..\cocos2d\cocos2d\cocos;$(ProjectDir)\..\cocos2d\cocos2d\external;$(ProjectDir)\..\cocos2d\cocos2d\external\tinyxml2;$(ProjectDir)\..\cocos2d\cocos2d\extensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <AdditionalOptions>-fpermissive %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>ANDROID;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
@@ -253,7 +278,12 @@
       </PrecompiledHeader>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;$(ProjectDir)\..\cocos2d\cocos2d;$(ProjectDir)\..\cocos2d\cocos2d\cocos;$(ProjectDir)\..\cocos2d\cocos2d\external;$(ProjectDir)\..\cocos2d\cocos2d\external\tinyxml2;$(ProjectDir)\..\cocos2d\cocos2d\extensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <AdditionalOptions>-fpermissive %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>ANDROID;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
@@ -262,7 +292,12 @@
       </PrecompiledHeader>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;$(ProjectDir)\..\cocos2d\cocos2d;$(ProjectDir)\..\cocos2d\cocos2d\cocos;$(ProjectDir)\..\cocos2d\cocos2d\external;$(ProjectDir)\..\cocos2d\cocos2d\external\tinyxml2;$(ProjectDir)\..\cocos2d\cocos2d\extensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <AdditionalOptions>-fpermissive %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>ANDROID;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
@@ -271,7 +306,12 @@
       </PrecompiledHeader>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Classes;$(ProjectDir)\Classes\action;$(ProjectDir)\Classes\include;$(ProjectDir)\Classes\util;$(ProjectDir)\Classes\widget;$(ProjectDir)\Classes\widget\base;$(ProjectDir)\Classes\widget\util;$(ProjectDir)\..\cocos2d\cocos2d;$(ProjectDir)\..\cocos2d\cocos2d\cocos;$(ProjectDir)\..\cocos2d\cocos2d\external;$(ProjectDir)\..\cocos2d\cocos2d\external\tinyxml2;$(ProjectDir)\..\cocos2d\cocos2d\extensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <AdditionalOptions>-fpermissive %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>ANDROID;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

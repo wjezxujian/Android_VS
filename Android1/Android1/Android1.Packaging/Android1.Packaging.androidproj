@@ -113,8 +113,9 @@
     </AntPackage>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Content Include="res\drawable\icon.png" />
-    <Content Include="res\layout\main.xml" />
+    <Content Include="res\drawable-hdpi\icon.png" />
+    <Content Include="res\drawable-ldpi\icon.png" />
+    <Content Include="res\drawable-mdpi\icon.png" />
     <Content Include="res\values\strings.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -123,6 +124,7 @@
       <SubType>Designer</SubType>
     </AndroidManifest>
     <AntProjectPropertiesFile Include="project.properties" />
+    <Content Include="src\com\enhance\gameservice\IGameTuningService.aidl" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Android1.NativeActivity\Android1.NativeActivity.vcxproj">
@@ -130,8 +132,33 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <JavaCompile Include="src\com\example\nativecodec\MyGLSurfaceView.java" />
-    <JavaCompile Include="src\com\example\nativecodec\NativeCodec.java" />
+    <JavaCompile Include="src\com\chukong\cocosplay\client\CocosPlayClient.java" />
+    <JavaCompile Include="src\org\cocos2dx\cpp\AppActivity.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxAccelerometer.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxActivity.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxBitmap.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxDownloader.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxEditBox.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxEditBoxHelper.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxGLSurfaceView.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxHandler.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxHelper.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxHttpURLConnection.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxJavascriptJavaBridge.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxLocalStorage.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxLuaJavaBridge.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxMusic.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxRenderer.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxSound.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxTextInputWraper.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxTypefaces.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxVideoHelper.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxVideoView.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxWebView.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\Cocos2dxWebViewHelper.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\GameControllerAdapter.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\GameControllerDelegate.java" />
+    <JavaCompile Include="src\org\cocos2dx\lib\GameControllerUtils.java" />
   </ItemGroup>
   <Import Project="$(AndroidTargetsPath)\Android.targets" />
   <ImportGroup Label="ExtensionTargets" />

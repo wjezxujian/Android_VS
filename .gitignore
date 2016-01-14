@@ -1,0 +1,27 @@
+/Android1/libs/tina/ARM
+/Android1/libs/protobuf/ARM
+/Android1/libs/protobuf/x86
+/Android1/libs/cocos2d/ARM
+/Android1/obj
+/Android1/x64
+/Android1/x86
+/Android1/.vs
+/Android1/.workspace
+/Android1/ARM
+/Android1/Debug
+/Android1/ipch
+/Android1/Android1/Android1.Packaging/ARM
+/Android1/Android1/Android1.Packaging/bin
+/Android1/Android1/Android1.Packaging/gen
+/Android1/libs/cocos2d/cocos2d/cocos/editor-support/spine/proj.android_vs/ARM
+/Android1/libs/cocos2d/cocos2d/external/Box2D/proj.android_vs/ARM
+/Android1/libs/cocos2d/cocos2d/external/bullet/proj.android_vs/ARM
+/Android1/libs/cocos2d/cocos2d/external/recast/proj.android_vs/ARM
+
+# Ignore files build by ndk and eclipse
+ARM/
+x86/
+x64/
+Debug/
+obj/
+
