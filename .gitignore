@@ -25,3 +25,6 @@ x64/
 Debug/
 obj/
 
+/Android1/Android1/Android1.NativeActivity/ARM
+/Android1/Android1/Android1.NativeActivity/x86
+/Android1/Android1/Android1.Packaging/x86
