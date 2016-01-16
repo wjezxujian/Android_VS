@@ -8,7 +8,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <DebuggerType>NativeOnly</DebuggerType>
-    <LaunchActivity>com.example.nativecodec.NativeCodec</LaunchActivity>
+    <LaunchActivity>org.cocos2dx.cpp.AppActivity</LaunchActivity>
     <DebuggerFlavor>AndroidDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>

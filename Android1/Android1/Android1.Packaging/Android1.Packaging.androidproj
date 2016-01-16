@@ -49,7 +49,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
     <UseDebugLibraries>true</UseDebugLibraries>
-    <AndroidAPILevel>android-23</AndroidAPILevel>
+    <AndroidAPILevel>android-19</AndroidAPILevel>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
     <UseDebugLibraries>false</UseDebugLibraries>
@@ -113,9 +113,8 @@
     </AntPackage>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Content Include="res\drawable-hdpi\icon.png" />
-    <Content Include="res\drawable-ldpi\icon.png" />
-    <Content Include="res\drawable-mdpi\icon.png" />
+    <Content Include="res\drawable\icon.png" />
+    <Content Include="res\layout\main.xml" />
     <Content Include="res\values\strings.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -123,8 +122,6 @@
     <AndroidManifest Include="AndroidManifest.xml">
       <SubType>Designer</SubType>
     </AndroidManifest>
-    <AntProjectPropertiesFile Include="project.properties" />
-    <Content Include="src\com\enhance\gameservice\IGameTuningService.aidl" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Android1.NativeActivity\Android1.NativeActivity.vcxproj">
@@ -159,6 +156,9 @@
     <JavaCompile Include="src\org\cocos2dx\lib\GameControllerAdapter.java" />
     <JavaCompile Include="src\org\cocos2dx\lib\GameControllerDelegate.java" />
     <JavaCompile Include="src\org\cocos2dx\lib\GameControllerUtils.java" />
+  </ItemGroup>
+  <ItemGroup>
+    <AntProjectPropertiesFile Include="project.properties" />
   </ItemGroup>
   <Import Project="$(AndroidTargetsPath)\Android.targets" />
   <ImportGroup Label="ExtensionTargets" />
